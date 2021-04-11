@@ -15,8 +15,9 @@ public class AppController {
 	UserRepository userRepo;
 	
 	
-    @GetMapping("")
+    @GetMapping("/")
     public String viewHomePage() {
+
         return "index";
     }
     
