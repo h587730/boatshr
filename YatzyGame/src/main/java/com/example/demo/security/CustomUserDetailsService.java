@@ -1,5 +1,7 @@
-package com.example.demo;
+package com.example.demo.security;
 
+import com.example.demo.dao.UserRepository;
+import com.example.demo.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

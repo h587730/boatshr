@@ -1,7 +1,8 @@
-package com.example.demo;
+package com.example.demo.security;
 
 import javax.sql.DataSource;
 
+import com.example.demo.security.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,7 +1,8 @@
-package com.example.demo;
+package com.example.demo.security;
 
 import java.util.Collection;
 
+import com.example.demo.model.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
  
